@@ -1,9 +1,9 @@
 h1 {
     color: #ff6f69;
-    text-align: center; 
+    text-align: center;
 }
 
-ul {
+ul > .list {
     list-style-type: none;
     padding-left: 0;
 }
@@ -25,11 +25,13 @@ ul {
 }
 
 li:hover {
-    background-color: #ff6f69;	
+    background-color: #ff6f69;
 }
 
 a {
-    color: #ffeead;
+    color: #ff6f69;
+    /*color: #ffeead;*/
+    text-decoration: none;
 }
 
 li {
